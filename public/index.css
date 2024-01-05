@@ -1,5 +1,10 @@
+:root{
+    --background-dark: rgba(15, 23, 42, 10);
+    --cyan: rgb(94 234 212);
+    --purple: rgb(99, 40, 113);
+}
 body{
-    background-color: rgb(0, 0, 35);
+    background-color: var(--background-dark);
     color: rgb(255,255,255);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,10 +14,20 @@ h1{
     margin-top: 10%;
 }
 
+hr{color: var(--cyan)}
+
+/* Box for customise password options such as password length, uppercase, lowercase, include special characters  */
 .generate-password-outter-box{
-    width: 50%;
+    width: 70%;
     height: 300px;
-    margin: 10% auto 0 auto;
-    background-color: black;
+    margin: 2% auto 0 auto;
+    background-color: var(--purple)
     
+}
+
+.generated-password-box-with-copy-referesh-options{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    background-color: aquamarine;
 }
