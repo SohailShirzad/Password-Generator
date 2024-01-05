@@ -31,3 +31,8 @@ hr{color: var(--cyan)}
     margin: auto;
     background-color: aquamarine;
 }
+
+.flex{
+    display: flex;
+    gap: 0.4rem;
+}
