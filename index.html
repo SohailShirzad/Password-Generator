@@ -24,10 +24,10 @@
             <label for="customRange2" class="form-label">Password length</label>
             <div class="col-6 flex">
                 <div>
-                    <input type="number" class="number-range" min="8" max="50" id="numberRange">
+                    <input type="number" class="number-range" min="8" max="50" value="12" id="numberRange">
                 </div>
                 <div>
-                    <input type="range" class="form-range" min="8" max="50" id="customRange2">
+                    <input type="range" class="form-range" min="8" max="50" value="12" id="customRange2">
                 </div>
                 
             </div>
@@ -37,14 +37,20 @@
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
+                      Easy to read
                     </label>
                   </div>
                   <div class="form-check"">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                     <label class="form-check-label" for="flexRadioDefault2">
-                      Default checked radio
+                      Easy to say
                     </label>
+                </div>
+                <div class="form-check"">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                  <label class="form-check-label" for="flexRadioDefault3">
+                    All characters
+                  </label>
                 </div>
             </div>
            
@@ -55,15 +61,27 @@
             <!-- Check boxes for Uppercase, Lowecase, Numbers, Symbols -->
             <div class="col-3">
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="Uppercase" id="flexChecked1" checked>
                     <label class="form-check-label" for="flexCheckDefault">
-                      Default checkbox
+                      Uppercase
                     </label>
                 </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <input class="form-check-input" type="checkbox" value="Lowercase" id="flexChecked2" checked>
                     <label class="form-check-label" for="flexCheckChecked">
-                      Checked checkbox
+                      Lowercase
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Numbers" id="flexChecked3" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Numbers
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Symbols" id="flexChecked4" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Symbols
                     </label>
                   </div>
             </div>
