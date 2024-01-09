@@ -14,9 +14,14 @@
     <h1>Password Generator</h1>
 
     <main>
-        <div class="generated-password-box-with-copy-referesh-options">
-
-        </div>
+          <section class="generated-password-box-with-copy-referesh-options">
+            <textarea
+              readonly
+              id="password"
+              placeholder="Your Secure Password"
+              onclick="writePassword()"
+            ></textarea>
+          </section>
 
         <div class="generate-password-outter-box container">
             <div class="row">
